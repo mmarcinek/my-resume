@@ -1,7 +1,16 @@
 import React from 'react';
 
-export default function Page({ text }){
+export default function Page({ viewObject }){
+  console.log(viewObject);
+  const {
+    image,
+    text,
+  } = viewObject
+
   return(
-    <div>{text}</div>
+    <>
+      <img src={image} title={viewObject} style={{width: '50vmax'}}/>
+      <div>{text}</div>
+    </>
   )
 }
