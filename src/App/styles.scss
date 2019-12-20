@@ -1,5 +1,8 @@
+@import '../index';
+
 .app {
-  text-align: center;
+  background-color: $background;
+  color: $text;
 
   .app-header {
     background-color: #282c34;

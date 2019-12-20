@@ -1,11 +1,23 @@
-/* modify base css with my defaults */
+// colors
+$text: #08090a; // -smoky-black
+$medium-dark: #575a5e; // -davy's-grey
+$medium: #a7a2a9; // -quick-silver
+$background: #f4f7f5; // -white-smoke
+
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lato|Roboto+Condensed&display=swap');
+$primary: 'Lato', sans-serif;
+$header: 'Roboto Condensed', sans-serif;
+$logo: 'Dosis', sans-serif;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: $primary, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $background;
 }
 
 code {

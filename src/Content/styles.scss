@@ -1,0 +1,15 @@
+.page {
+  display: flex;
+  align-items: flex-end;
+  min-height: 200px;
+
+  &__left {
+    padding: 2rem;
+    align-self: stretch;
+  }
+
+  &__right {
+    padding: 2rem;
+    align-self: stretch;
+  }
+}

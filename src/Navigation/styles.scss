@@ -1,0 +1,37 @@
+@import '../index';
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: $background;
+
+  &-left {
+    margin-right: auto;
+    padding: 4px 32px;
+    font-family: $logo;
+    font-size: 28px;
+  }
+
+  &-right {
+    padding-right: 25px;
+  }
+
+  &__btn {
+    display: inline-block;
+    color: $text !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: $background;
+    margin: 0 1px;
+    padding: 20px;
+    border: none;
+    transition: all 0.4s ease 0s;
+  }
+
+  &__btn:hover {
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease 0s;
+  }
+}
